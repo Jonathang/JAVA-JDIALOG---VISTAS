@@ -1,0 +1,10 @@
+// ESTO PERMITE CREAR VISTAS EN DIFERENTES VENTANAS.
+
+ public Restaurante() // CONSTRUCTOR
+              
+            Restaurante = new Restaurante(); // Poner el nombre del constructor
+            dialog.setDefaultCloseOperation(JDialog.DISPOSE_ON_CLOSE);
+            dialog.setSize(400, 300);
+            
+            dialog.setLocationRelativeTo(dialog);
+            dialog.setVisible(true);
